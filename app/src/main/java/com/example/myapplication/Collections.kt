@@ -39,6 +39,15 @@ fun ContohSet (){
 
     val shape: MutableSet<String> = mutableSetOf("Circle", "Square", "Triangle")
     println(shape)
+
+    shape.add("Rectangle")
+    println(shape)
+
+    shape.remove("Circle")
+    println(shape)
+
+    val shapesLocked: Set<String> = shape
+    println(shapesLocked)
 }
 
 fun main(){
