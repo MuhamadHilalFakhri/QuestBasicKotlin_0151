@@ -31,7 +31,11 @@ fun ContohList() {
 }
 
 fun ContohSet (){
+    println()
+    println("=== Set ===")
 
+    val readOnlyAbjad = setOf("A","B","C")
+    println(readOnlyAbjad)
 }
 
 fun main(){
