@@ -30,6 +30,10 @@ fun ContohList() {
 
 }
 
+fun ContohSet (){
+
+}
+
 fun main(){
     ContohList()
 }
