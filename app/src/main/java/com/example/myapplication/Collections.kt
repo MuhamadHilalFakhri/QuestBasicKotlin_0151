@@ -50,6 +50,8 @@ fun ContohSet (){
     println(shapesLocked)
 }
 
+fun ContohMap
 fun main(){
     ContohList()
+
 }
